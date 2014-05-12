@@ -7,8 +7,7 @@
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package ThemeGrill
+ 
  * @subpackage Radiate
  * @since Radiate 1.0
  */
@@ -44,5 +43,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_sidebar(); ?><!--Calling Sidebar-->
+<?php get_footer(); ?><!--Calling footer-->
